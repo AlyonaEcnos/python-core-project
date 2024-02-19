@@ -580,6 +580,40 @@ header {
 .section-technologies {
   background-color: $p-blue;
   padding-bottom: 100px;
+  .content-wrap {
+    flex-direction: reverse;
+    justify-content: space-between;
+    @media (max-width: 1024px) {
+      flex-direction: column;
+    }
+    .img-wrap {
+      margin-right: 30px;
+      @media (max-width: 1024px) {
+        margin-right: 0px;
+      }
+      img {
+        min-width: 300px;
+      }
+    }
+    .p-wrap {
+      padding-top: 30px;
+
+      @media (max-width: 1024px) {
+        padding-top: 15px;
+      }
+      p {
+        text-align: left;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: bold;
+        padding: 10px 0px;
+        @media (max-width: 600px) {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
 
   .btn-wrap {
     display: flex;
@@ -656,21 +690,6 @@ header {
         100% {
           transform: translate(-50%, -75%) rotate(360deg);
         }
-      }
-    }
-  }
-
-  .p-wrap {
-    padding-top: 30px;
-    p {
-      text-align: center;
-      font-size: 20px;
-      line-height: 25px;
-      font-weight: bold;
-      padding: 10px 0px;
-      @media (max-width: 600px) {
-        font-size: 18px;
-        line-height: 22px;
       }
     }
   }

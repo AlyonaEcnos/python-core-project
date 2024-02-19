@@ -227,14 +227,17 @@ header {
     color: $p-blue;
     min-height: 78px;
     align-items: center;
+    justify-content: space-between;
     .logo {
       h1 {
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
         font-size: 30px;
 
-        span {
-          font-size: 20px;
+        img {
+          @media (max-width: 450px) {
+            width: 86%;
+          }
         }
       }
     }
@@ -356,6 +359,10 @@ header {
   @media (max-width: 1024px) {
     padding: 40px;
   }
+
+  @media (max-width: 600px) {
+    padding: 30px 0px;
+  }
   h2 {
     text-align: center;
     font-size: 57px;
@@ -451,6 +458,10 @@ header {
       @include cleanList;
       padding-left: 30px;
 
+      @media (max-width: 600px) {
+        padding-left: 15px;
+      }
+
       li {
         font-size: 24px;
         line-height: 30px;
@@ -459,15 +470,24 @@ header {
         padding-right: 27px;
         padding-bottom: 10px;
 
+        @media (max-width: 600px) {
+          font-size: 18px;
+          line-height: 22px;
+        }
+
         &::before {
           content: "";
-          width: 12px;
-          height: 12px;
+          width: 8px;
+          height: 8px;
           background: $p-purple;
           border-radius: 50%;
           position: absolute;
           top: 8px;
           left: -20px;
+          @media (max-width: 600px) {
+            top: 6px;
+            left: -15px;
+          }
         }
       }
     }
@@ -481,6 +501,10 @@ header {
       line-height: 35px;
       font-weight: bold;
       color: #1f1748;
+      @media (max-width: 600px) {
+        font-size: 18px;
+        line-height: 22px;
+      }
     }
   }
 }
@@ -512,6 +536,11 @@ header {
         font-weight: bold;
         color: #1f1748;
         padding: 10px 0px;
+
+        @media (max-width: 600px) {
+          font-size: 18px;
+          line-height: 22px;
+        }
       }
     }
   }
@@ -519,13 +548,14 @@ header {
 
 .section-technologies {
   background-color: $p-blue;
+  padding-bottom: 100px;
 
   .btn-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 40px;
+    padding-top: 60px;
     .btn {
       font-size: 24px;
       letter-spacing: 2px;
@@ -607,6 +637,10 @@ header {
       line-height: 25px;
       font-weight: bold;
       padding: 10px 0px;
+      @media (max-width: 600px) {
+        font-size: 18px;
+        line-height: 22px;
+      }
     }
   }
 }

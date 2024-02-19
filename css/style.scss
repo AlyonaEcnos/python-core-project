@@ -486,6 +486,38 @@ header {
   }
 }
 
+.section-about {
+  background-color: $bgcolor0;
+  min-height: unset;
+  color: #1f1748;
+
+  .section-about-wrap {
+    h2 {
+      color: #1f1748;
+    }
+
+    .img-wrap {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .happy {
+      max-width: 25px;
+    }
+
+    .p-wrap {
+      padding-top: 30px;
+      p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: bold;
+        color: #1f1748;
+        padding: 10px 0px;
+      }
+    }
+  }
+}
+
 .section-technologies {
   background-color: $p-blue;
 }

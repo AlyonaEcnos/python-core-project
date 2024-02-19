@@ -3596,6 +3596,38 @@ header.floating {
   color: #1f1748;
 }
 
+.section-about {
+  background-color: #ffffff;
+  min-height: unset;
+  color: #1f1748;
+}
+
+.section-about .section-about-wrap h2 {
+  color: #1f1748;
+}
+
+.section-about .section-about-wrap .img-wrap {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.section-about .section-about-wrap .happy {
+  max-width: 25px;
+}
+
+.section-about .section-about-wrap .p-wrap {
+  padding-top: 30px;
+}
+
+.section-about .section-about-wrap .p-wrap p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #1f1748;
+  padding: 10px 0px;
+}
+
 .section-technologies {
   background-color: #5f7fec;
 }

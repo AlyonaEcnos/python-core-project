@@ -6,7 +6,9 @@ $(window).on('load', function() { // makes sure the whole site is loaded
 
 $(document).ready(function () {
  
-  
+  $('.menu-link').click(function() {
+      $('#menu').prop('checked', false); // Забезпечити закриття меню
+  });
   
     // back to top button
     var offset = 300;

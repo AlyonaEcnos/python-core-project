@@ -3329,7 +3329,7 @@ header .header-wrap .menu .switcher {
   left: -9999px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header .header-wrap .menu .switcher:checked ~ nav {
     right: 0;
   }
@@ -3346,7 +3346,7 @@ header .header-wrap .menu label {
   color: #000000;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header .header-wrap .menu label.close, header .header-wrap .menu label.open {
     display: block;
     position: relative;
@@ -3362,7 +3362,7 @@ header .header-wrap .menu label {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header .header-wrap .menu nav {
     position: fixed;
     width: 250px;
@@ -3383,7 +3383,7 @@ header .header-wrap .menu nav ul {
   list-style: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header .header-wrap .menu nav ul {
     flex-direction: column;
   }
@@ -3399,7 +3399,7 @@ header .header-wrap .menu nav ul li a {
   font-weight: bold;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header .header-wrap .menu nav ul li a {
     padding: 15px;
   }

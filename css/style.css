@@ -3676,6 +3676,12 @@ header.floating {
   }
 }
 
+@media (max-width: 600px) {
+  .section-about .section-about-wrap .content-wrap .img-wrap img {
+    width: 85%;
+  }
+}
+
 .section-about .section-about-wrap .content-wrap .p-wrap {
   padding-top: 30px;
   padding-right: 30px;

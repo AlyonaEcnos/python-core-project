@@ -541,6 +541,10 @@ header {
           @media (max-width: 1440px) {
             width: 100%;
           }
+
+          @media (max-width: 600px) {
+            width: 85%;
+          }
         }
       }
 
